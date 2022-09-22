@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <H1>Формы</H1>
+    <form>
+        <div>
+            <label for="text1">Текст</label>
+<input type="text" id="text1" value="Текст по умолчанию" readonly>
+        <div>
+             <label for="email1">Почта</label>
+<input type="email" id="email1" placeholder="Укажите адрес">
+        </div>
+        <div>
+            <label for="password1">Пароль</label>
+<input type="password" id="password1">
+       </div>
+       <div>
+        <label for="tel">Телефон</label>
+<input type="text" id="tel">
+       </div>
+       <div>
+        <label for="number1">Число</label>
+<input type="number" id="number1" min="-2" max="9">
+       </div>
+       <div>
+        <label for="range1">Ползунок</label>
+<input type="range" id="range1" min="-3" max="30" step="3">
+       </div>
+       <div>
+        <label for="date1">Дата</label>
+<input type="date" id="date1">
+       </div>
+       <div>
+        <label for="color1">Выбор цвета</label>
+<input type="color" id="color1">
+       </div>
+       <div>
+        <label for="message">Сообщение</label>
+        <br>
+<textarea id="message" cols="40" rows="15"></textarea>
+       </div>
+       <div>
+        <label for="sex">Выбор пола</label>
+<select id="sex">
+    <option value="male">Мужчина</option>
+    <option value="famale">Женщина</option>
+    <option value="other" selected>Другое</option>
+</select>
+       </div>
+       <br>
+       <div>
+        <label>Количество работ</label>
+<input type="radio" name="work">1
+<input type="radio" name="work">2
+<input type="radio" name="work">3
+<input type="radio" name="work">4+
+       </div>
+       <div>
+        <label>Любимая еда</label>
+<input type="checkbox" >Борщ
+<input type="checkbox" >Плов
+<input type="checkbox" >Суп
+       </div>
+       <br>
+       <hr>
+       <button type="submit">Отправить заполненную форму</button>
+    </form>
+</body>
+</html>
